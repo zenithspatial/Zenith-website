@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zenith Surveying &amp; Engineering Ltd | Land, Drone &amp; Engineering Surveys in Ghana</title>
+<meta name="description" content="Zenith Surveying and Engineering Ltd, Kumasi: land and cadastral surveys, drone and LiDAR mapping, engineering, construction, mining and GIS surveying services across Ghana.">
+<link rel="canonical" href="https://www.zenithspatial.com/">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta name="theme-color" content="#0a014f">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Zenith Surveying &amp; Engineering Ltd">
+<meta property="og:description" content="Accurate surveying and geospatial solutions you can build on. Land, drone, engineering, mining and GIS surveys across Ghana.">
+<meta property="og:url" content="https://www.zenithspatial.com/">
+<meta property="og:image" content="https://www.zenithspatial.com/assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"Zenith Surveying and Engineering Ltd","url":"https://www.zenithspatial.com/","logo":"https://www.zenithspatial.com/assets/logo.png","image":"https://www.zenithspatial.com/assets/og-image.jpg","telephone":"+233598994241","email":"info@zenithspatial.com","address":{"@type":"PostalAddress","addressLocality":"Kumasi","addressRegion":"Ashanti Region","addressCountry":"GH"},"geo":{"@type":"GeoCoordinates","latitude":6.67131,"longitude":-1.59064},"areaServed":"Ghana","sameAs":["https://www.facebook.com/zenithspatial/","https://gh.linkedin.com/company/zenithspatial"],"openingHours":"Mo-Fr 08:00-17:00"}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap">
+<style>
+  :root{
+    --navy:#0a014f; --navy-2:#140b6b; --navy-3:#1d148a;
+    --orange:#fca311; --orange-dark:#e08e05;
+    --bg:#FFFFFF; --bg-alt:#F6F7FB; --card:#FFFFFF;
+    --text:#0f0f2e; --muted:#525a7a; --line:#E3E6F0; --tint:#EEF0FA;
+    --shadow:0 12px 32px -14px rgba(10,1,79,.28);
+    color-scheme:light;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#0b0a24; --bg-alt:#11103a; --card:#171650; --text:#F1F2FA; --muted:#B2B7D6; --line:#2B2A6A; --tint:#1c1b58;
+      --shadow:0 12px 32px -14px rgba(0,0,0,.7); color-scheme:dark;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0b0a24; --bg-alt:#11103a; --card:#171650; --text:#F1F2FA; --muted:#B2B7D6; --line:#2B2A6A; --tint:#1c1b58;
+    --shadow:0 12px 32px -14px rgba(0,0,0,.7); color-scheme:dark;
+  }
+  *{box-sizing:border-box}
+  [hidden]{display:none!important}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:'Source Sans 3',ui-sans-serif,system-ui,sans-serif;font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  h1,h2,h3,h4{font-family:'Montserrat',ui-sans-serif,system-ui,sans-serif;margin:0;text-wrap:balance;line-height:1.2;color:var(--text)}
+  p{margin:0} a{color:inherit} img{max-width:100%;display:block}
+  .wrap{max-width:1180px;margin-inline:auto;padding-inline:24px}
+  @media(max-width:640px){.wrap{padding-inline:18px}}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:'Montserrat',sans-serif;font-weight:700;font-size:.92rem;padding:14px 26px;border-radius:6px;text-decoration:none;border:2px solid transparent;cursor:pointer;transition:.15s;white-space:nowrap}
+  .btn:active{transform:translateY(1px)}
+  .btn-orange{background:var(--orange);color:var(--navy)} .btn-orange:hover{background:var(--orange-dark)}
+  .btn-navy{background:var(--navy);color:#fff} .btn-navy:hover{background:var(--navy-3)}
+  .btn-white-o{background:transparent;color:#fff;border-color:rgba(255,255,255,.75)} .btn-white-o:hover{background:#fff;color:var(--navy)}
+  .btn-wa{background:#25D366;color:#fff} .btn-wa:hover{background:#1ebe5a}
+  .btn svg{width:18px;height:18px}
+
+  .topbar{background:var(--navy);color:#fff;font-size:.86rem}
+  .topbar .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-block:8px;flex-wrap:wrap}
+  .topbar a{color:#fff;text-decoration:none;display:inline-flex;align-items:center;gap:6px} .topbar a:hover{color:var(--orange)}
+  .topbar .group{display:flex;gap:20px;flex-wrap:wrap;align-items:center}
+  @media(max-width:640px){.topbar .group:last-child{display:none}}
+
+  header{position:sticky;top:0;z-index:40;background:#fff;border-bottom:1px solid #E3E6F0;box-shadow:0 2px 12px rgba(10,1,79,.07)}
+  .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-block:10px}
+  .logo{height:72px;width:auto} @media(max-width:480px){.logo{height:52px}}
+  nav.links{display:flex;gap:26px;font-family:'Montserrat',sans-serif;font-weight:600;font-size:.86rem}
+  nav.links a{text-decoration:none;color:#0f0f2e;padding-block:6px;border-bottom:2px solid transparent}
+  nav.links a:hover{color:var(--navy);border-color:var(--orange)}
+  @media(max-width:1000px){nav.links{display:none}}
+  .nav-right{display:flex;align-items:center;gap:12px}
+  .menu-btn{display:none;width:44px;height:44px;border:1px solid #E3E6F0;border-radius:8px;background:#fff;cursor:pointer;flex-direction:column;justify-content:center;align-items:center;gap:5px;padding:0}
+  .menu-btn span{display:block;width:20px;height:2px;background:var(--navy);border-radius:2px}
+  @media(max-width:1000px){.menu-btn{display:flex}}
+  .mobile-nav{display:flex;flex-direction:column;border-top:1px solid #E3E6F0;background:#fff;padding:8px 24px 14px}
+  .mobile-nav a{padding:12px 0;border-bottom:1px solid #F0F1F6;text-decoration:none;color:#0f0f2e;font-family:'Montserrat',sans-serif;font-weight:600;font-size:.95rem}
+  .mobile-nav a:last-child{border-bottom:0}
+  @media(max-width:480px){.nav .btn{padding:11px 14px;font-size:.8rem}}
+
+  .hero{position:relative;color:#fff;overflow:hidden;background:var(--navy);min-height:560px;display:flex;align-items:center}
+  .hero video,.hero .poster{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .hero-ov{position:absolute;inset:0;background:linear-gradient(100deg,rgba(10,1,79,.94) 0%,rgba(10,1,79,.72) 50%,rgba(10,1,79,.35) 100%)}
+  .hero .wrap{position:relative;padding-block:110px 140px;width:100%}
+  .hero-inner{max-width:640px}
+  @media(max-width:900px){.hero .wrap{padding-block:80px 120px}}
+  .kicker{display:inline-block;background:var(--orange);color:var(--navy);font-family:'Montserrat',sans-serif;font-weight:700;font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;padding:6px 12px;border-radius:4px;margin-bottom:22px}
+  .hero h1{font-size:clamp(2.2rem,4.6vw,3.6rem);font-weight:800;color:#fff;margin-bottom:20px}
+  .hero p{font-size:1.15rem;color:#E4E3F3;max-width:52ch;margin-bottom:32px}
+  .hero-ctas{display:flex;gap:14px;flex-wrap:wrap}
+
+  .highlights{margin-top:-68px;position:relative;z-index:2}
+  .highlights .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  @media(max-width:860px){.highlights .grid{grid-template-columns:1fr}}
+  .hl{background:var(--card);border-radius:10px;padding:28px;box-shadow:var(--shadow);border-top:4px solid var(--orange)}
+  .hl h3{font-size:1.05rem;font-weight:700;margin-bottom:8px} .hl p{color:var(--muted);font-size:.96rem}
+
+  section{padding-block:90px} @media(max-width:640px){section{padding-block:60px}}
+  .alt{background:var(--bg-alt)}
+  .eyebrow{font-family:'Montserrat',sans-serif;font-weight:700;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);margin-bottom:12px;display:block}
+  .h2{font-size:clamp(1.7rem,3.2vw,2.4rem);font-weight:800}
+  .h2 .accent{color:var(--navy)}
+  :root[data-theme="dark"] .h2 .accent{color:var(--orange)} @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .h2 .accent{color:var(--orange)}}
+  .lead{color:var(--muted);font-size:1.08rem;max-width:62ch;margin-top:16px}
+  .center{text-align:center} .center .lead{margin-inline:auto}
+
+  .about{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+  @media(max-width:900px){.about{grid-template-columns:1fr;gap:36px}}
+  .about-photo{position:relative;border-radius:14px;overflow:hidden;box-shadow:var(--shadow);aspect-ratio:4/3.4}
+  .about-photo img{width:100%;height:100%;object-fit:cover}
+  .about-badge{position:absolute;left:18px;bottom:18px;background:var(--orange);color:var(--navy);padding:14px 18px;border-radius:8px;font-family:'Montserrat',sans-serif;font-weight:700;font-size:.88rem;line-height:1.3;box-shadow:var(--shadow)}
+  .checks{display:grid;grid-template-columns:1fr 1fr;gap:12px 20px;margin-top:26px;padding:0;list-style:none;margin-bottom:0}
+  @media(max-width:480px){.checks{grid-template-columns:1fr}}
+  .checks li{display:flex;gap:10px;align-items:center;font-weight:600}
+  .checks li::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--orange);flex-shrink:0}
+  .mission-box{margin-top:26px;border-left:4px solid var(--orange);background:var(--tint);padding:18px 22px;border-radius:0 8px 8px 0}
+  .mission-box strong{font-family:'Montserrat',sans-serif}
+
+  .clients{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding-block:34px;background:var(--bg)}
+  .clients .row{display:flex;align-items:center;justify-content:center;gap:40px;flex-wrap:wrap}
+  .clients .lbl{font-family:'Montserrat',sans-serif;font-weight:700;font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-align:center;margin-bottom:22px}
+  .clients img{height:64px;width:auto;max-width:200px;object-fit:contain;background:#fff;padding:6px 10px;border-radius:6px}
+  .clients .txt{font-family:'Montserrat',sans-serif;font-weight:700;color:var(--muted);font-size:.9rem;display:flex;gap:22px;flex-wrap:wrap}
+
+  .services{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:44px}
+  @media(max-width:900px){.services{grid-template-columns:repeat(2,1fr)}} @media(max-width:600px){.services{grid-template-columns:1fr}}
+  .svc{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;transition:.15s;display:flex;flex-direction:column}
+  .svc:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+  .svc .img{aspect-ratio:16/10;overflow:hidden} .svc .img img{width:100%;height:100%;object-fit:cover;transition:transform .4s} .svc:hover .img img{transform:scale(1.05)}
+  .svc .body{padding:22px 24px 26px;display:flex;flex-direction:column;gap:10px}
+  .svc h3{font-size:1.08rem;font-weight:700} .svc p{color:var(--muted);font-size:.95rem}
+  .svc-toggle{margin-top:auto;align-self:flex-start;background:none;border:0;padding:0;font-family:'Montserrat',sans-serif;font-weight:700;font-size:.88rem;color:var(--navy);cursor:pointer}
+  :root[data-theme="dark"] .svc-toggle{color:var(--orange)} @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .svc-toggle{color:var(--orange)}}
+  .svc-toggle::after{content:" \2193"} .svc-toggle[aria-expanded="true"]::after{content:" \2191"}
+  .svc-more p{margin-bottom:8px}
+  .svc-list{margin:4px 0 0;padding-left:18px;color:var(--text);font-size:.9rem;display:flex;flex-direction:column;gap:4px} .svc-list li::marker{color:var(--orange)}
+
+  .work{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px}
+  @media(max-width:900px){.work{grid-template-columns:repeat(2,1fr)}} @media(max-width:560px){.work{grid-template-columns:1fr}}
+  .wcard{border-radius:12px;overflow:hidden;position:relative;aspect-ratio:4/3;box-shadow:var(--shadow)}
+  .wcard img{width:100%;height:100%;object-fit:cover;transition:transform .4s} .wcard:hover img{transform:scale(1.04)}
+  .wcard .cap{position:absolute;left:0;right:0;bottom:0;padding:16px 18px;background:linear-gradient(transparent,rgba(10,1,79,.9));color:#fff}
+  .wcard .cap b{display:block;font-family:'Montserrat',sans-serif;font-size:.98rem} .wcard .cap span{font-size:.84rem;color:#DDDCF0}
+
+  .sectors-sec{background:var(--navy);color:#fff}
+  .sectors-sec .h2{color:#fff} .sectors-sec .lead{color:#C9C8E6}
+  .sectors-wrap{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;margin-top:44px}
+  @media(max-width:900px){.sectors-wrap{grid-template-columns:1fr}}
+  .sectors-img{border-radius:14px;overflow:hidden;aspect-ratio:4/3.6;box-shadow:0 30px 60px -20px rgba(0,0,0,.6)} .sectors-img img{width:100%;height:100%;object-fit:cover}
+  .sectors{display:flex;flex-direction:column;gap:6px}
+  .sec{padding:16px 0;border-bottom:1px solid rgba(255,255,255,.14)} .sec:last-child{border-bottom:0}
+  .sec h3{font-size:1.02rem;color:#fff;margin-bottom:4px;display:flex;gap:12px;align-items:center}
+  .sec h3::before{content:"";width:8px;height:8px;background:var(--orange);border-radius:50%;flex-shrink:0}
+  .sec p{color:#C9C8E6;font-size:.94rem;padding-left:20px}
+
+  .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:26px;margin-top:48px}
+  @media(max-width:900px){.steps{grid-template-columns:repeat(2,1fr)}} @media(max-width:520px){.steps{grid-template-columns:1fr}}
+  .step{text-align:center;padding:0 8px}
+  .step .n{width:64px;height:64px;border-radius:50%;background:var(--orange);color:var(--navy);font-family:'Montserrat',sans-serif;font-weight:800;font-size:1.4rem;display:flex;align-items:center;justify-content:center;margin:0 auto 18px;box-shadow:0 8px 20px -8px rgba(252,163,17,.8)}
+  .step h3{font-size:1.02rem;margin-bottom:8px} .step p{color:var(--muted);font-size:.94rem}
+
+  .blog-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;margin-top:44px;align-items:start}
+  @media(max-width:900px){.blog-grid{grid-template-columns:1fr}}
+  .post{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:var(--shadow)}
+  .post .pimg{aspect-ratio:16/8;overflow:hidden} .post .pimg img{width:100%;height:100%;object-fit:cover}
+  .post .pbody{padding:30px}
+  .pmeta{display:flex;gap:14px;font-size:.82rem;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.06em;font-family:'Montserrat',sans-serif;margin-bottom:12px;flex-wrap:wrap}
+  .pmeta .tag{color:var(--orange)}
+  .post h3{font-size:1.45rem;font-weight:800;margin-bottom:12px} .post .excerpt{color:var(--muted)}
+  .post .full{display:none;margin-top:18px} .post .full p{margin-bottom:14px} .post .full h4{font-size:1.05rem;margin:18px 0 8px}
+  .post.open .full{display:block}
+  .post .readmore{margin-top:18px;display:inline-flex;align-items:center;gap:6px;background:none;border:0;padding:0;font-family:'Montserrat',sans-serif;font-weight:700;color:var(--navy);cursor:pointer;font-size:.92rem}
+  :root[data-theme="dark"] .post .readmore{color:var(--orange)} @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .post .readmore{color:var(--orange)}}
+  .aside{display:flex;flex-direction:column;gap:18px}
+  .aside .box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px}
+  .aside h4{font-size:.95rem;text-transform:uppercase;letter-spacing:.06em;margin-bottom:12px}
+  .aside ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px;font-size:.95rem;color:var(--muted)}
+  .aside li{display:flex;gap:8px} .aside li::before{content:"›";color:var(--orange);font-weight:800}
+
+  .job{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-top:40px;box-shadow:var(--shadow);display:grid;grid-template-columns:1.3fr .7fr}
+  @media(max-width:860px){.job{grid-template-columns:1fr}}
+  .job-main{padding:34px}
+  .job h3{font-size:1.4rem;font-weight:800}
+  .pill{display:inline-block;background:var(--tint);color:var(--navy);font-weight:700;font-size:.78rem;padding:5px 10px;border-radius:99px;font-family:'Montserrat',sans-serif;margin-right:6px}
+  :root[data-theme="dark"] .pill{color:var(--orange)} @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .pill{color:var(--orange)}}
+  .pill.open{background:#E6F7EC;color:#157A3B}
+  .job h4{font-size:1rem;margin:20px 0 8px}
+  .job ul{margin:0;padding-left:20px;color:var(--muted);display:flex;flex-direction:column;gap:6px;font-size:.96rem}
+  .apply{background:var(--bg-alt);border-left:1px solid var(--line);display:flex;flex-direction:column}
+  .apply .aimg{aspect-ratio:16/9;overflow:hidden} .apply .aimg img{width:100%;height:100%;object-fit:cover}
+  .apply .abody{padding:26px}
+  .apply h4{margin:0 0 6px;font-size:1.1rem} .appform{display:flex;flex-direction:column;gap:14px} .appform .note{margin:0} .appform .note a{color:var(--navy);font-weight:600}
+  input[type=file]{padding:9px 10px;font-size:.9rem}
+  .apply .btn{width:100%}
+
+  .faq{margin-top:40px;display:grid;grid-template-columns:1fr 1fr;gap:16px} @media(max-width:860px){.faq{grid-template-columns:1fr}}
+  details{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px 22px}
+  details[open]{border-color:var(--orange)}
+  summary{cursor:pointer;font-family:'Montserrat',sans-serif;font-weight:700;font-size:.98rem;list-style:none;display:flex;justify-content:space-between;gap:12px;align-items:center}
+  summary::after{content:"+";color:var(--orange);font-size:1.4rem;font-weight:800} details[open] summary::after{content:"\2212"}
+  details p{margin-top:12px;color:var(--muted);font-size:.95rem}
+
+  .loc{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:44px;align-items:stretch}
+  @media(max-width:860px){.loc{grid-template-columns:1fr}}
+  .map{border-radius:12px;overflow:hidden;position:relative;background:#e9edf5;min-height:360px;box-shadow:var(--shadow)}
+  .map iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .map svg{width:100%;height:100%;position:absolute;inset:0}
+  .map .pin{position:absolute;left:50%;top:50%;transform:translate(-50%,-100%);text-align:center}
+  .map .pin svg{position:static;width:46px;height:46px;filter:drop-shadow(0 6px 8px rgba(10,1,79,.4))}
+  .map .pin .lbl{background:var(--navy);color:#fff;font-family:'Montserrat',sans-serif;font-weight:700;font-size:.78rem;padding:6px 10px;border-radius:6px;white-space:nowrap;margin-top:-4px}
+  .map .open{position:absolute;right:14px;bottom:14px}
+  .loc-info{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:30px;display:flex;flex-direction:column;gap:16px}
+  .loc-info h3{font-size:1.25rem}
+  .loc-info .row{display:grid;grid-template-columns:auto 1fr;gap:8px 16px;font-size:.96rem} .loc-info .row b{color:var(--muted);font-weight:600} .loc-info .row a{text-decoration:none}
+  .hours{display:grid;grid-template-columns:1fr auto;gap:6px 16px;font-size:.95rem;border-top:1px solid var(--line);padding-top:14px} .hours span:nth-child(even){font-weight:600;text-align:right}
+
+  .cta-band{background:linear-gradient(100deg,var(--orange),#ffb941);color:var(--navy)}
+  .cta-band .wrap{display:flex;justify-content:space-between;align-items:center;gap:28px;flex-wrap:wrap;padding-block:52px}
+  .cta-band h2{font-size:clamp(1.5rem,2.8vw,2.1rem);font-weight:800;color:var(--navy)} .cta-band p{margin-top:6px;font-size:1.05rem;color:#2a1f6b}
+
+  .contact{display:grid;grid-template-columns:.85fr 1.15fr;gap:48px;margin-top:44px} @media(max-width:900px){.contact{grid-template-columns:1fr}}
+  .cinfo{display:flex;flex-direction:column;gap:22px}
+  .cinfo .item{border-left:3px solid var(--orange);padding-left:16px}
+  .cinfo h4{font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+  .cinfo a,.cinfo p{color:var(--text);text-decoration:none;display:block;font-size:1rem} .cinfo a:hover{color:var(--orange-dark)}
+  .cinfo a.primary{font-weight:700;font-size:1.15rem}
+  .social{display:flex;gap:10px;margin-top:8px}
+  .social a{width:40px;height:40px;border-radius:8px;background:var(--tint);color:var(--navy);display:flex;align-items:center;justify-content:center;text-decoration:none}
+  :root[data-theme="dark"] .social a{color:#fff} @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .social a{color:#fff}}
+  .social a:hover{background:var(--orange);color:var(--navy)}
+  form.qf{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:34px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:16px}
+  .row2{display:grid;grid-template-columns:1fr 1fr;gap:16px} @media(max-width:480px){.row2{grid-template-columns:1fr}}
+  label{display:flex;flex-direction:column;gap:6px;font-weight:600;font-size:.88rem}
+  .ok{background:#E6F7EC;color:#157A3B;border:1px solid #BFE8CC;border-radius:8px;padding:14px 16px;font-weight:600}
+  input,select,textarea{font-family:inherit;font-size:1rem;padding:12px 14px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--text)}
+  input:focus,select:focus,textarea:focus{outline:2px solid var(--orange);outline-offset:1px;border-color:var(--orange)}
+  textarea{min-height:110px;resize:vertical}
+  .sendrow{display:grid;grid-template-columns:1fr 1fr;gap:12px} @media(max-width:480px){.sendrow{grid-template-columns:1fr}}
+
+  footer{background:var(--navy);color:#C9C8E6;padding-block:56px 28px}
+  .fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:36px}
+  @media(max-width:900px){.fgrid{grid-template-columns:1fr 1fr}} @media(max-width:560px){.fgrid{grid-template-columns:1fr}}
+  .flogo{height:62px;width:auto}
+  footer h4{color:#fff;font-size:.92rem;margin-bottom:14px;letter-spacing:.06em;text-transform:uppercase}
+  footer ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:9px;font-size:.95rem}
+  footer a{color:#C9C8E6;text-decoration:none} footer a:hover{color:var(--orange)}
+  .fsocial{display:flex;gap:10px;margin-top:18px}
+  .fsocial a{width:38px;height:38px;border-radius:8px;background:rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;color:#fff} .fsocial a:hover{background:var(--orange);color:var(--navy)}
+  .fbottom{margin-top:40px;padding-top:20px;border-top:1px solid rgba(255,255,255,.14);font-size:.85rem;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+  .wa-float{position:fixed;right:20px;bottom:20px;z-index:50;width:56px;height:56px;border-radius:50%;background:#25D366;color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 24px -8px rgba(0,0,0,.5)}
+  .wa-float svg{width:30px;height:30px}
+  :focus-visible{outline:3px solid var(--orange);outline-offset:2px}
+  @media (prefers-reduced-motion: reduce){.hero video{display:none}}
+</style>
+</head>
+<body>
+
+
+<div class="topbar">
+  <div class="wrap">
+    <div class="group">
+      <a href="tel:+233598994241">+233 59 899 4241</a>
+      <a href="mailto:info@zenithspatial.com">info@zenithspatial.com</a>
+    </div>
+    <div class="group">
+      <span>Kumasi, Ghana</span>
+      <a href="https://www.facebook.com/zenithspatial/" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://gh.linkedin.com/company/zenithspatial" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://x.com/zenithspatial" target="_blank" rel="noopener">X</a>
+    </div>
+  </div>
+</div>
+
+<header>
+  <div class="wrap nav">
+    <a href="#top" aria-label="Zenith Surveying and Engineering home"><img class="logo" src="assets/logo.png" alt="Zenith Surveying &amp; Engineering" width="680" height="291"></a>
+    <nav class="links">
+      <a href="#about">About</a><a href="#services">Services</a><a href="#work">Our Work</a><a href="#sectors">Sectors</a><a href="#blog">Blog</a><a href="#careers">Careers</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <a class="btn btn-orange" href="#contact">Request a Quote</a>
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <nav class="mobile-nav" id="mobileNav" hidden>
+    <a href="#about">About</a><a href="#services">Services</a><a href="#work">Our Work</a><a href="#sectors">Sectors</a><a href="#process">Process</a><a href="#blog">Blog</a><a href="#careers">Careers</a><a href="#faq">FAQ</a><a href="#location">Location</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <img class="poster" src="assets/hero-poster.jpg" alt="" aria-hidden="true">
+    <video autoplay muted loop playsinline poster="assets/hero-poster.jpg" aria-hidden="true">
+      <source src="assets/hero.mp4" type="video/mp4">
+    </video>
+    <div class="hero-ov"></div>
+    <div class="wrap">
+      <div class="hero-inner">
+        <span class="kicker">Pioneers in Precision</span>
+        <h1>Accurate Surveying &amp; Geospatial Solutions You Can Build On</h1>
+        <p>Zenith Surveying and Engineering Ltd delivers land, engineering, drone and GIS surveying services to government agencies, developers, mining companies and engineering firms across Ghana.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-orange" href="#contact">Request a Quote</a>
+          <a class="btn btn-white-o" href="#services">Explore Our Services</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap highlights">
+    <div class="grid">
+      <div class="hl"><h3>Accurate Data</h3><p>Field-verified measurements processed to the standards engineers, regulators and financiers require.</p></div>
+      <div class="hl"><h3>Modern Technology</h3><p>GNSS, total stations, UAV photogrammetry, LiDAR and GIS workflows on every project.</p></div>
+      <div class="hl"><h3>Personalized Support</h3><p>A dedicated team that scopes, delivers and walks you through every result.</p></div>
+    </div>
+  </div>
+
+  <section id="about">
+    <div class="wrap about">
+      <div class="about-photo">
+        <img src="assets/about.jpg" alt="Surveyor setting up a total station on a construction site">
+        <div class="about-badge">Kumasi-based<br>Serving all of Ghana</div>
+      </div>
+      <div>
+        <span class="eyebrow">About Zenith</span>
+        <h2 class="h2">A Trusted Partner in <span class="accent">Surveying &amp; Engineering</span></h2>
+        <p class="lead">Zenith Surveying and Engineering Ltd is a Ghanaian geospatial firm delivering excellence through expertise and technology. Our professionals are trained at the University of Mines and Technology, KNUST, and the University of Energy and Natural Resources, bringing deep experience across surveying, mining and civil engineering disciplines.</p>
+        <div class="mission-box"><strong>Our Vision:</strong> To be the leading provider of innovative and reliable solutions that meet the needs and expectations of our clients.</div>
+        <ul class="checks"><li>Excellence</li><li>Innovation</li><li>Integrity</li><li>Collaboration</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="clients">
+    <div class="wrap">
+      <div class="lbl">Trusted by</div>
+      <div class="row">
+        <img src="assets/client-world-vision.png" alt="World Vision">
+        <img src="assets/client-omnibsic.png" alt="OmniBSIC Bank Ghana">
+        <img src="assets/client-gci.png" alt="Geomatic Consulting International">
+        <img src="assets/client-mifa.png" alt="MIFA Construction">
+        <div class="txt"><span>Traditional Councils</span><span>Researchers &amp; Students</span></div>
+      </div>
+    </div>
+  </div>
+
+  <section id="services" class="alt">
+    <div class="wrap">
+      <div class="center"><span class="eyebrow">What We Do</span><h2 class="h2">Our <span class="accent">Services</span></h2><p class="lead">Comprehensive surveying, mapping and engineering support, from boundary demarcation to aerial LiDAR capture.</p></div>
+      <div class="services">
+        <article class="svc"><div class="img"><img loading="lazy" src="assets/service-land.jpg" alt="Land surveying with a total station"></div><div class="body"><h3>Land Surveying</h3><p class="svc-short">Cadastral, boundary and topographic surveys that establish clear, defensible records of land.</p><div class="svc-more" hidden><p>We locate and set boundary pillars, measure parcels on the national grid and prepare the site plans and beacon schedules required for Lands Commission registration, subdivision and title.</p><ul class="svc-list"><li>Cadastral and title surveys with site plans</li><li>Boundary re-establishment and dispute resolution</li><li>Topographic and contour surveys</li><li>Subdivision and estate layout plans</li></ul></div><button class="svc-toggle" type="button" aria-expanded="false">Read more</button></div></article>
+        <article class="svc"><div class="img"><img loading="lazy" src="assets/service-drone.jpg" alt="Drone mapping over farmland"></div><div class="body"><h3>Aerial Drone &amp; LiDAR Surveys</h3><p class="svc-short">Survey-grade UAV photogrammetry and LiDAR capture for large, remote or hazardous sites.</p><div class="svc-more" hidden><p>In a single flight we collect dense, georeferenced data that would take weeks on foot, then process it into accurate orthomosaics, terrain models and volumes.</p><ul class="svc-list"><li>High-resolution orthomosaics and 3D models</li><li>Digital terrain and surface models (DTM/DSM)</li><li>Stockpile and earthwork volumes</li><li>Corridor mapping for roads, pipelines and power lines</li></ul></div><button class="svc-toggle" type="button" aria-expanded="false">Read more</button></div></article>
+        <article class="svc"><div class="img"><img loading="lazy" src="assets/service-engineering.jpg" alt="Engineering survey on a construction site"></div><div class="body"><h3>Engineering Surveys</h3><p class="svc-short">Precise control and measurement for infrastructure design and delivery.</p><div class="svc-more" hidden><p>We establish primary and secondary control networks, monitor structures for movement and verify that completed works match the design.</p><ul class="svc-list"><li>Primary control networks (GNSS and total station)</li><li>Deformation and settlement monitoring</li><li>As-built surveys and verification</li><li>Route and alignment surveys</li></ul></div><button class="svc-toggle" type="button" aria-expanded="false">Read more</button></div></article>
+        <article class="svc"><div class="img"><img loading="lazy" src="assets/service-gis.jpg" alt="GIS map layers"></div><div class="body"><h3>GIS &amp; Mapping</h3><p class="svc-short">We turn survey data, imagery and records into geographic information systems and maps that support decisions.</p><div class="svc-more" hidden><p>From land databases for assemblies to asset registers for utilities, our GIS products are built to be maintained and queried, not just printed.</p><ul class="svc-list"><li>GIS database design and data capture</li><li>Thematic and base mapping</li><li>Spatial analysis and site suitability studies</li><li>Digitising of legacy plans and records</li></ul></div><button class="svc-toggle" type="button" aria-expanded="false">Read more</button></div></article>
+        <article class="svc"><div class="img"><img loading="lazy" src="assets/service-construction.jpg" alt="Aerial view of bridge construction"></div><div class="body"><h3>Construction Surveying</h3><p class="svc-short">Setting-out and control on site so that structures are built exactly where the design places them.</p><div class="svc-more" hidden><p>Our crews work alongside contractors from ground-breaking to handover, keeping the project on line, on level and on programme.</p><ul class="svc-list"><li>Setting-out of buildings, roads and services</li><li>Gridlines, levels and formwork checks</li><li>Earthwork quantities and progress surveys</li><li>Final as-built drawings</li></ul></div><button class="svc-toggle" type="button" aria-expanded="false">Read more</button></div></article>
+        <article class="svc"><div class="img"><img loading="lazy" src="assets/service-mining.jpg" alt="Haul trucks in an open pit mine"></div><div class="body"><h3>Mining Surveying</h3><p class="svc-short">Specialist surveying for mining and mineral exploration, from concession boundaries to daily production measurement.</p><div class="svc-more" hidden><p>We support compliance, planning and reporting with reliable spatial data.</p><ul class="svc-list"><li>Concession and licence boundary surveys</li><li>Pit, dump and stockpile volumetrics</li><li>Haul-road and bench monitoring</li><li>Drill-hole and sample-point positioning</li></ul></div><button class="svc-toggle" type="button" aria-expanded="false">Read more</button></div></article>
+        <article class="svc"><div class="img"><img loading="lazy" src="assets/service-utility.jpg" alt="High-voltage transmission lines"></div><div class="body"><h3>Utility Surveying</h3><p class="svc-short">Accurate location and mapping of the pipes, cables and lines that run above and below your site.</p><div class="svc-more" hidden><p>Knowing where services are protects workers, prevents damage and keeps network records current as infrastructure expands.</p><ul class="svc-list"><li>Underground utility detection and mapping</li><li>Overhead line and pole surveys</li><li>Utility corridor and wayleave surveys</li><li>Asset registers for utility providers</li></ul></div><button class="svc-toggle" type="button" aria-expanded="false">Read more</button></div></article>
+        <article class="svc"><div class="img"><img loading="lazy" src="assets/service-agriculture.jpg" alt="Agricultural drone over crops"></div><div class="body"><h3>Agricultural Surveying</h3><p class="svc-short">Mapping and measurement for farms, plantations and agribusiness.</p><div class="svc-more" hidden><p>We define estate boundaries, map fields and land use, and provide the terrain data needed for irrigation, drainage and mechanisation.</p><ul class="svc-list"><li>Farm and plantation boundary surveys</li><li>Field mapping and area measurement</li><li>Land-use and land-cover mapping</li><li>Terrain data for irrigation and drainage design</li></ul></div><button class="svc-toggle" type="button" aria-expanded="false">Read more</button></div></article>
+        <article class="svc"><div class="img"><img loading="lazy" src="assets/service-consultancy.jpg" alt="Engineers reviewing drawings"></div><div class="body"><h3>Consultancy</h3><p class="svc-short">Independent technical advice on geospatial matters.</p><div class="svc-more" hidden><p>We help clients define what survey they actually need, set data standards, review third-party work and plan complex projects before the first instrument is set up.</p><ul class="svc-list"><li>Survey scoping and specification</li><li>Data standards and quality review</li><li>Land documentation and due-diligence support</li><li>Training and capacity building</li></ul></div><button class="svc-toggle" type="button" aria-expanded="false">Read more</button></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="wrap">
+      <div class="center"><span class="eyebrow">In the Field</span><h2 class="h2">Our Work <span class="accent">Across Ghana</span></h2><p class="lead">From urban corridors in Kumasi and Accra to mining concessions and agricultural estates nationwide.</p></div>
+      <div class="work">
+        <div class="wcard"><img loading="lazy" src="assets/work-earthworks.jpg" alt="Aerial view of an earthworks site"><div class="cap"><b>Earthworks &amp; volumetrics</b><span>Drone survey of cut and fill</span></div></div>
+        <div class="wcard"><img loading="lazy" src="assets/work-quarry.jpg" alt="Aerial view of a quarry"><div class="cap"><b>Quarry &amp; mine mapping</b><span>Orthomosaic and terrain model</span></div></div>
+        <div class="wcard"><img loading="lazy" src="assets/work-road.jpg" alt="Aerial view of road paving"><div class="cap"><b>Road construction</b><span>Setting-out and progress survey</span></div></div>
+        <div class="wcard"><img loading="lazy" src="assets/work-total-station.jpg" alt="Total station on a tripod"><div class="cap"><b>Control network</b><span>Precise total station observations</span></div></div>
+        <div class="wcard"><img loading="lazy" src="assets/work-stockpile.jpg" alt="Total station beside a stockpile"><div class="cap"><b>Stockpile survey</b><span>Volume measurement for reporting</span></div></div>
+        <div class="wcard"><img loading="lazy" src="assets/work-highrise.jpg" alt="High-rise construction with cranes"><div class="cap"><b>High-rise development</b><span>Structural monitoring and as-builts</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sectors" class="sectors-sec">
+    <div class="wrap">
+      <div class="center"><span class="eyebrow">Who We Serve</span><h2 class="h2">Industries &amp; Clients</h2><p class="lead">Our surveys plug directly into the engineering, planning and regulatory workflows of organizations across Ghana.</p></div>
+      <div class="sectors-wrap">
+        <div class="sectors-img"><img src="assets/sectors.jpg" alt="Aerial view of a construction site"></div>
+        <div class="sectors">
+          <div class="sec"><h3>Government &amp; Public Agencies</h3><p>Boundary adjudication, land administration and infrastructure survey data aligned to national standards.</p></div>
+          <div class="sec"><h3>Real Estate Developers</h3><p>Site due diligence, parcel demarcation and topographic base mapping to de-risk acquisition and design.</p></div>
+          <div class="sec"><h3>Mining &amp; Exploration</h3><p>Concession surveys, stockpile volumetrics and ongoing pit and haul-road monitoring.</p></div>
+          <div class="sec"><h3>Engineering &amp; Construction Firms</h3><p>Control networks, setting-out and as-built data in the formats your design team already uses.</p></div>
+          <div class="sec"><h3>Agribusiness</h3><p>Land-use mapping and boundary surveys that support financing, leasing and estate planning.</p></div>
+          <div class="sec"><h3>NGOs, Traditional Councils &amp; Researchers</h3><p>Community land mapping, stool land documentation and research-grade spatial datasets.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="process">
+    <div class="wrap">
+      <div class="center"><span class="eyebrow">How We Work</span><h2 class="h2">A Simple, Accountable <span class="accent">Process</span></h2><p class="lead">Every engagement follows the same disciplined sequence, so you always know what stage your project is at.</p></div>
+      <div class="steps">
+        <div class="step"><div class="n">1</div><h3>Consultation</h3><p>We define deliverables, accuracy requirements and timeline against your project's needs.</p></div>
+        <div class="step"><div class="n">2</div><h3>Field Data Capture</h3><p>GNSS, total station, drone or LiDAR capture executed by trained crews under strict QA.</p></div>
+        <div class="step"><div class="n">3</div><h3>Processing &amp; QA</h3><p>Data is processed, cross-checked and validated before it reaches your deliverable.</p></div>
+        <div class="step"><div class="n">4</div><h3>Delivery &amp; Handover</h3><p>Reports, drawings and GIS-ready datasets delivered with a walkthrough of findings.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog" class="alt">
+    <div class="wrap">
+      <div class="center"><span class="eyebrow">Insights</span><h2 class="h2">From the <span class="accent">Zenith Blog</span></h2><p class="lead">Practical guidance on land, surveying and geospatial technology in Ghana.</p></div>
+      <div class="blog-grid">
+        <article class="post" id="post1">
+          <div class="pimg"><img src="assets/blog-gnss.jpg" alt="GNSS receivers set up on a tripod in the field"></div>
+          <div class="pbody">
+            <div class="pmeta"><span class="tag">Land Surveying</span><span>September 2026</span><span>5 min read</span></div>
+            <h3>Why a Cadastral Survey Is the Foundation of Secure Land Ownership</h3>
+            <p class="excerpt">In land management, two things matter above everything else: accuracy and clarity. A cadastral survey provides both. It establishes exactly where a parcel begins and ends, who holds rights over it, and how it fits into the wider land record. Here is why it matters to anyone who owns, buys, develops or administers land in Ghana.</p>
+            <div class="full">
+              <h4>What a cadastral survey is</h4>
+              <p>A cadastral survey is the detailed measurement and mapping of a land parcel: its boundaries, dimensions, beacons and its relationship to neighbouring parcels and the national grid. Our surveyors use GNSS receivers and total stations to fix each corner to centimetre accuracy, then produce a site plan and beacon schedule that becomes the official record of that parcel. That plan is what the Lands Commission relies on when your interest in the land is registered.</p>
+              <h4>Clear ownership and defensible boundaries</h4>
+              <p>Most land disputes begin with an uncertain boundary. A cadastral survey removes the ambiguity by placing physical pillars at every corner and recording their coordinates. Owners, buyers and the courts can all refer to the same verified line, which makes it far harder for a boundary to be contested or quietly shifted over time.</p>
+              <h4>A basis for planning and administration</h4>
+              <p>District assemblies, planning authorities and utility providers depend on cadastral data to make decisions about zoning, road reservations, infrastructure routes and property rates. Accurate parcel records let them allocate resources and enforce regulations fairly. Without them, planning is guesswork.</p>
+              <h4>Confidence in real estate transactions</h4>
+              <p>When land changes hands, both sides need proof that the parcel on paper matches the parcel on the ground. A survey confirms the true area, exposes overlaps with registered plots, and gives buyers the assurance that what they are paying for is what they will receive. For sellers it builds trust and shortens negotiations.</p>
+              <h4>Safer development and construction</h4>
+              <p>Architects, engineers and contractors design within the surveyed boundary and set out from the surveyed control. A cadastral survey, often combined with a topographic survey, reveals encroachments, existing services, drainage lines and access constraints before any design work begins, so projects are built legally and without costly rework.</p>
+              <h4>Managing land and natural resources</h4>
+              <p>Accurately mapped parcels also support agriculture, forestry and environmental work. Farm estates, concessions and conservation areas can be managed, leased, financed and monitored with confidence when their extents are properly surveyed.</p>
+              <h4>What to ask for</h4>
+              <p>Insist on a site plan referenced to the national grid, a beacon schedule with coordinates, physical pillars at every corner, and a search that reconciles the parcel against Lands Commission records. Under the Land Act, 2020 (Act 1036), registration is what secures your interest, and registration starts with an accurate survey.</p>
+              <p>Zenith carries out cadastral and title surveys across the Ashanti Region and nationwide. <a href="#contact">Talk to us</a> before you sign.</p>
+            </div>
+            <button class="readmore" type="button" onclick="var p=document.getElementById('post1');p.classList.toggle('open');this.textContent=p.classList.contains('open')?'Show less':'Read full article'">Read full article</button>
+          </div>
+        </article>
+        <div class="aside">
+          <div class="box"><h4>Topics</h4><ul><li>Land &amp; cadastral surveying</li><li>Drone &amp; LiDAR mapping</li><li>Construction setting-out</li><li>GIS for planning</li><li>Mining surveys</li></ul></div>
+          <div class="box"><h4>Have a question?</h4><p style="color:var(--muted);font-size:.95rem;margin-bottom:14px">Our team is happy to explain what survey your project needs before you commit.</p><a class="btn btn-navy" href="#contact" style="width:100%">Ask a Surveyor</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="careers">
+    <div class="wrap">
+      <div class="center"><span class="eyebrow">Careers</span><h2 class="h2">Join the <span class="accent">Zenith Team</span></h2><p class="lead">We hire people who take accuracy seriously and enjoy working in the field.</p></div>
+      <div class="job">
+        <div class="job-main">
+          <h3>Survey Technician</h3>
+          <div style="margin-top:8px"><span class="pill open">Open</span><span class="pill">Full-time</span><span class="pill">Kumasi, Ghana</span></div>
+          <p style="color:var(--muted);margin-top:14px">We are looking for a Survey Technician to join our field team. You will support licensed surveyors on land, engineering and construction projects across Ghana, operating modern GNSS and total-station equipment and helping to turn field observations into accurate deliverables.</p>
+          <h4>Responsibilities</h4>
+          <ul>
+            <li>Carry out field observations with GNSS (RTK/static), total stations and digital levels</li>
+            <li>Set out and verify boundary pillars, control points and construction gridlines</li>
+            <li>Maintain accurate field books, sketches and instrument logs</li>
+            <li>Download, back up and pre-process field data for the office team</li>
+            <li>Care for instruments and vehicles and follow site safety procedures</li>
+          </ul>
+          <h4>Requirements</h4>
+          <ul>
+            <li>HND or BSc in Geomatic Engineering, Surveying or a related field</li>
+            <li>One to three years of field experience; fresh graduates with strong practical training are encouraged to apply</li>
+            <li>Confident use of GNSS and total-station equipment; AutoCAD or GIS skills are an advantage</li>
+            <li>Willingness to travel and work on sites across Ghana</li>
+            <li>A valid driver's licence is an advantage</li>
+          </ul>
+        </div>
+        <div class="apply">
+          <div class="aimg"><img src="assets/careers.jpg" alt="Surveyor sighting through a total station"></div>
+          <form class="abody appform" id="applyForm" name="job-application" method="POST" action="/?sent=job#careers" enctype="multipart/form-data" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="job-application"><input type="hidden" name="position" value="Survey Technician"><p hidden><label>Do not fill this in: <input name="bot-field"></label></p>
+            <h4>Apply for this role</h4>
+            <div class="ok" id="applyOk" hidden>Thank you. Your application has been received.</div>
+            <label for="ap-name">Full name<input id="ap-name" name="name" type="text" required></label>
+            <div class="row2"><label for="ap-email">Email<input id="ap-email" name="email" type="email" required></label><label for="ap-phone">Phone<input id="ap-phone" name="phone" type="tel" required></label></div>
+            <div class="row2"><label for="ap-qual">Highest qualification<select id="ap-qual" name="qualification"><option>HND</option><option>BSc</option><option>MSc</option><option>Other</option></select></label><label for="ap-exp">Years of experience<select id="ap-exp" name="experience"><option>Fresh graduate</option><option>1 to 3 years</option><option>3 to 5 years</option><option>5+ years</option></select></label></div>
+            <label for="ap-cv">CV (PDF or Word, max 5 MB)<input id="ap-cv" name="cv" type="file" accept=".pdf,.doc,.docx" required></label>
+            <label for="ap-note">Cover note<textarea id="ap-note" name="cover_note" placeholder="Tell us briefly about your field experience and equipment you have used"></textarea></label>
+            <button class="btn btn-orange" type="submit">Submit Application</button>
+            <p class="note">Or email your CV to <a href="mailto:info@zenithspatial.com?subject=Survey%20Technician%20Application">info@zenithspatial.com</a> with the subject "Survey Technician Application".</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="alt">
+    <div class="wrap">
+      <div class="center"><span class="eyebrow">FAQ</span><h2 class="h2">Frequently Asked <span class="accent">Questions</span></h2></div>
+      <div class="faq">
+        <details><summary>How long does a land survey take?</summary><p>A typical residential or commercial plot survey is completed in the field in one day, with the site plan and documentation delivered within a few working days. Larger parcels, estates and concessions are scheduled after a scoping visit.</p></details>
+        <details><summary>Do you work outside the Ashanti Region?</summary><p>Yes. We are based in Kumasi and mobilise field crews to projects across all regions of Ghana.</p></details>
+        <details><summary>What do I receive at the end of a survey?</summary><p>Depending on the service: a site plan on the national grid, beacon schedule with coordinates, topographic drawings, drone orthomosaics, terrain models, volume reports, and GIS or CAD datasets, plus a walkthrough of the results.</p></details>
+        <details><summary>Can you fly drones over my site?</summary><p>Yes. Our UAV operations follow Ghana Civil Aviation Authority requirements, and we handle the necessary permissions as part of project planning.</p></details>
+        <details><summary>How do I get a quotation?</summary><p>Use the contact form, WhatsApp us, or call +233 59 899 4241. Share the site location, what you need the survey for and any deadlines, and we will respond with a proposal.</p></details>
+        <details><summary>Do you provide surveys for mining concessions?</summary><p>Yes. Concession boundary surveys, stockpile volumetrics, pit and haul-road monitoring, and mapping for exploration programmes.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section id="location">
+    <div class="wrap">
+      <div class="center"><span class="eyebrow">Find Us</span><h2 class="h2">Our <span class="accent">Location</span></h2></div>
+      <div class="loc">
+        <div class="map">
+          <iframe src="https://www.google.com/maps?q=6.67131,-1.59064&z=15&output=embed" title="Map showing the location of Zenith Surveying and Engineering Ltd in Kumasi" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <a class="btn btn-navy open" href="https://www.google.com/maps?q=6.67131,-1.59064" target="_blank" rel="noopener">Open in Google Maps</a>
+        </div>
+        <div class="loc-info">
+          <h3>Zenith Surveying and Engineering Ltd</h3>
+          <div class="row"><b>Address</b><span>Kumasi, Ashanti Region, Ghana</span><b>Phone</b><a href="tel:+233598994241">+233 59 899 4241</a><b>Email</b><a href="mailto:info@zenithspatial.com">info@zenithspatial.com</a></div>
+          <div class="hours"><span>Monday to Friday</span><span>8:00 to 17:00</span><span>Saturday</span><span>By appointment</span><span>Sunday</span><span>Closed</span></div>
+          <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:auto"><a class="btn btn-orange" href="https://www.google.com/maps/dir/?api=1&destination=6.67131,-1.59064" target="_blank" rel="noopener">Get Directions</a><a class="btn btn-navy" href="tel:+233598994241">Call Us</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta-band"><div class="wrap"><div><h2>Ready to start your project?</h2><p>Talk to our team today for a tailored proposal and quotation.</p></div><a class="btn btn-navy" href="#contact">Contact Us</a></div></div>
+
+  <section id="contact" class="alt">
+    <div class="wrap">
+      <div class="center"><span class="eyebrow">Contact Us</span><h2 class="h2">Get in <span class="accent">Touch</span></h2><p class="lead">Tell us about your site and scope and we will follow up with a tailored proposal.</p></div>
+      <div class="contact">
+        <div class="cinfo">
+          <div class="item"><h4>Phone / WhatsApp</h4><a class="primary" href="tel:+233598994241">+233 59 899 4241</a><a href="tel:+233534515567">+233 53 451 5567</a><a href="tel:+233204550470">+233 20 455 0470</a></div>
+          <div class="item"><h4>Email</h4><a class="primary" href="mailto:info@zenithspatial.com">info@zenithspatial.com</a></div>
+          <div class="item"><h4>Office</h4><p>Kumasi, Ashanti Region, Ghana</p><a href="#location">View map</a></div>
+          <div class="item"><h4>Follow Us</h4>
+            <div class="social">
+              <a href="https://www.facebook.com/zenithspatial/" aria-label="Facebook" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H8v4h2v6h4v-6h3l1-4h-4V8z"/></svg></a>
+              <a href="https://gh.linkedin.com/company/zenithspatial" aria-label="LinkedIn" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M4 9h3v11H4zM5.5 4a1.8 1.8 0 1 1 0 3.6 1.8 1.8 0 0 1 0-3.6zM10 9h3v1.6c.5-.9 1.7-1.9 3.5-1.9 3.6 0 4.5 2.3 4.5 5.4V20h-3v-5.2c0-1.3 0-2.9-1.8-2.9s-2.2 1.4-2.2 2.8V20h-3z"/></svg></a>
+              <a href="https://x.com/zenithspatial" aria-label="X" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 3h3l-7.3 8.4L22 21h-6.7l-5.2-6.8L4 21H1l7.8-9L1.5 3h6.9l4.7 6.2z"/></svg></a>
+              <a href="https://wa.me/233598994241" aria-label="WhatsApp" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4c1.7.7 2.1.6 2.7.5a2.3 2.3 0 0 0 1.5-1.1 1.9 1.9 0 0 0 .1-1.1c0-.1-.2-.2-.4-.3z"/></svg></a>
+            </div></div>
+        </div>
+        <form class="qf" id="quoteForm" name="quote" method="POST" action="/?sent=quote#contact" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="quote"><p hidden><label>Do not fill this in: <input name="bot-field"></label></p>
+          <div class="ok" id="quoteOk" hidden>Thank you. Your request has been received and we will get back to you shortly.</div>
+          <div class="row2"><label for="qf-name">Full name<input id="qf-name" name="name" type="text" required placeholder="Your name"></label><label for="qf-org">Organization<input id="qf-org" name="organization" type="text" placeholder="Company or agency"></label></div>
+          <div class="row2"><label for="qf-email">Email<input id="qf-email" name="email" type="email" required placeholder="you@company.com"></label><label for="qf-phone">Phone<input id="qf-phone" name="phone" type="tel" placeholder="+233 ..."></label></div>
+          <label for="qf-service">Service needed<select id="qf-service" name="service"><option>Land Surveying</option><option>Aerial Drone &amp; LiDAR Surveys</option><option>Engineering Surveys</option><option>GIS &amp; Mapping</option><option>Construction Surveying</option><option>Mining Surveying</option><option>Utility Surveying</option><option>Agricultural Surveying</option><option>Consultancy</option><option>Not sure yet</option></select></label>
+          <label for="qf-message">Project details<textarea id="qf-message" name="details" placeholder="Site location, scope and timeline"></textarea></label>
+          <div class="sendrow">
+            <button class="btn btn-wa" type="button" id="sendWa"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>Send via WhatsApp</button>
+            <button class="btn btn-orange" type="submit" id="sendEmail">Send Request</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <img class="flogo" src="assets/logo-white.png" alt="Zenith Surveying &amp; Engineering" width="680" height="291">
+        <p style="margin-top:16px;max-width:36ch">Delivering excellence through expertise and technology: accurate data, innovative solutions and personalized support for clients across Ghana.</p>
+        <div class="fsocial">
+          <a href="https://www.facebook.com/zenithspatial/" aria-label="Facebook" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H8v4h2v6h4v-6h3l1-4h-4V8z"/></svg></a>
+          <a href="https://gh.linkedin.com/company/zenithspatial" aria-label="LinkedIn" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M4 9h3v11H4zM5.5 4a1.8 1.8 0 1 1 0 3.6 1.8 1.8 0 0 1 0-3.6zM10 9h3v1.6c.5-.9 1.7-1.9 3.5-1.9 3.6 0 4.5 2.3 4.5 5.4V20h-3v-5.2c0-1.3 0-2.9-1.8-2.9s-2.2 1.4-2.2 2.8V20h-3z"/></svg></a>
+          <a href="https://x.com/zenithspatial" aria-label="X" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 3h3l-7.3 8.4L22 21h-6.7l-5.2-6.8L4 21H1l7.8-9L1.5 3h6.9l4.7 6.2z"/></svg></a>
+        </div>
+      </div>
+      <div><h4>Company</h4><ul><li><a href="#about">About Us</a></li><li><a href="#work">Our Work</a></li><li><a href="#blog">Blog</a></li><li><a href="#careers">Careers</a></li><li><a href="#faq">FAQ</a></li><li><a href="#contact">Contact</a></li></ul></div>
+      <div><h4>Services</h4><ul><li><a href="#services">Land Surveying</a></li><li><a href="#services">Drone &amp; LiDAR Surveys</a></li><li><a href="#services">Engineering Surveys</a></li><li><a href="#services">GIS &amp; Mapping</a></li><li><a href="#services">Mining Surveying</a></li><li><a href="#services">Consultancy</a></li></ul></div>
+      <div><h4>Contact</h4><ul><li><a href="tel:+233598994241">+233 59 899 4241</a></li><li><a href="tel:+233534515567">+233 53 451 5567</a></li><li><a href="tel:+233204550470">+233 20 455 0470</a></li><li><a href="mailto:info@zenithspatial.com">info@zenithspatial.com</a></li><li>Kumasi, Ashanti Region, Ghana</li></ul></div>
+    </div>
+    <div class="fbottom"><span>© <span id="year"></span> Zenith Surveying and Engineering Ltd. All rights reserved.</span><span>zenithspatial.com</span></div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/233598994241?text=Hello%20Zenith%2C%20I%20would%20like%20to%20ask%20about%20a%20survey." target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4c1.7.7 2.1.6 2.7.5a2.3 2.3 0 0 0 1.5-1.1 1.9 1.9 0 0 0 .1-1.1c0-.1-.2-.2-.4-.3z"/></svg></a>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  function formText(){
+    var v=function(id){return document.getElementById(id).value.trim();};
+    return {service:v('qf-service'), body:['Quote request: '+v('qf-service'),'Name: '+v('qf-name'),'Organization: '+(v('qf-org')||'N/A'),'Email: '+(v('qf-email')||'N/A'),'Phone: '+(v('qf-phone')||'N/A'),'','Project details:',v('qf-message')||'N/A'].join('\n')};
+  }
+  (function(){var q=new URLSearchParams(location.search).get('sent');
+    if(q==='quote'){var f=document.getElementById('quoteForm'); f.reset(); document.getElementById('quoteOk').hidden=false;}
+    if(q==='job'){var g=document.getElementById('applyForm'); g.reset(); document.getElementById('applyOk').hidden=false;}
+  })();
+  document.getElementById('sendWa').addEventListener('click',function(){
+    if(!document.getElementById('qf-name').value.trim()){document.getElementById('qf-name').reportValidity();return;}
+    var t=formText(); window.open('https://wa.me/233598994241?text='+encodeURIComponent(t.body),'_blank','noopener');
+  });
+  var vid=document.querySelector('.hero video'); if(vid){vid.play().catch(function(){});}
+  document.querySelectorAll('.svc-toggle').forEach(function(b){b.addEventListener('click',function(){var m=b.previousElementSibling; var open=m.hidden; m.hidden=!open; b.setAttribute('aria-expanded',String(open)); b.firstChild.textContent=open?'Show less':'Read more';});});
+  var mb=document.getElementById('menuBtn'), mn=document.getElementById('mobileNav');
+  mb.addEventListener('click',function(){var open=!mn.hidden; mn.hidden=open; mb.setAttribute('aria-expanded',String(!open));});
+  mn.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){mn.hidden=true; mb.setAttribute('aria-expanded','false');});});
+</script>
+
+</body>
+</html>
